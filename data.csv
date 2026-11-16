@@ -1,0 +1,47 @@
+code,name,hdi,happiness,freedom,col,row
+IS,Iceland,0.972,7.540,95,0,0
+NO,Norway,0.970,7.242,99,4,0
+SE,Sweden,0.959,7.255,99,5,0
+FI,Finland,0.948,7.764,100,6,0
+EE,Estonia,0.905,6.410,96,6,1
+RU,Russia,0.832,5.834,12,7,1
+IE,Ireland,0.949,6.928,98,0,2
+GB,United Kingdom,0.946,6.694,92,1,2
+DK,Denmark,0.962,7.539,97,4,2
+LV,Latvia,0.889,6.365,89,6,2
+NL,Netherlands,0.955,7.223,97,2,3
+DE,Germany,0.959,6.882,95,3,3
+PL,Poland,0.906,6.768,82,4,3
+LT,Lithuania,0.895,6.704,90,5,3
+BY,Belarus,0.824,5.821,7,6,3
+BE,Belgium,0.951,6.926,95,2,4
+LU,Luxembourg,0.922,7.063,97,3,4
+CZ,Czechia,0.915,6.821,95,4,4
+SK,Slovakia,0.880,6.255,88,5,4
+UA,Ukraine,0.779,4.658,51,6,4
+FR,France,0.920,6.586,89,2,5
+CH,Switzerland,0.970,7.018,96,3,5
+AT,Austria,0.930,6.845,94,4,5
+HU,Hungary,0.870,5.937,65,5,5
+RO,Romania,0.845,6.629,83,6,5
+MD,Moldova,0.785,5.851,60,7,5
+PT,Portugal,0.890,6.029,96,0,6
+ES,Spain,0.918,6.540,91,1,6
+AD,Andorra,0.913,,93,2,6
+IT,Italy,0.915,6.574,87,3,6
+SI,Slovenia,0.931,6.868,97,4,6
+HR,Croatia,0.889,6.009,82,5,6
+RS,Serbia,0.833,6.691,53,6,6
+MC,Monaco,,,82,2,7
+LI,Liechtenstein,0.938,,90,3,7
+BA,Bosnia and Herzegovina,0.804,6.381,54,4,7
+ME,Montenegro,0.862,6.139,68,5,7
+XK,Kosovo,,6.910,61,6,7
+BG,Bulgaria,0.845,5.703,74,7,7
+TR,Türkiye,0.853,5.300,32,8,7
+SM,San Marino,0.915,,97,3,8
+MT,Malta,0.924,6.436,88,4,8
+AL,Albania,0.810,5.662,69,5,8
+MK,North Macedonia,0.815,5.719,67,6,8
+GR,Greece,0.908,5.697,85,6,9
+CY,Cyprus,0.913,6.126,90,8,9

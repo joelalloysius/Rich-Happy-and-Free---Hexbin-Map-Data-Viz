@@ -1,0 +1,118 @@
+/* ---------- Colour scheme: Nordic slate ---------- */
+:root {
+  --bg:       #FFFFFF;   /* canvas background */
+  --tile:     #F2F1EE;   /* hexagon and panel fill: pale stone */
+  --ink:      #1F1F1F;   /* main text */
+  --ink-soft: #6B6B6B;   /* secondary text */
+  --hdi:      #B8512F;   /* development column: terracotta roof tiles */
+  --happy:    #D49A2A;   /* happiness column: ochre facades */
+  --free:     #3F8E7E;   /* freedom column: verdigris copper domes */
+}
+
+/* ---------- Page ---------- */
+body {
+  margin: 0;
+  padding: 20px;
+  background: #F4F6F8;
+  display: flex;
+  justify-content: center;
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+#frame {
+  width: 540px;
+}
+
+/* ---------- Canvas ---------- */
+.background {
+  fill: var(--bg);
+}
+
+/* ---------- Title and subtitle ---------- */
+.title {
+  fill: var(--ink);
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 76px;
+  font-weight: 600;
+}
+
+.subtitle {
+  fill: var(--ink-soft);
+  font-size: 28px;
+}
+
+/* ---------- Legend ---------- */
+.legend-label {
+  fill: var(--ink-soft);
+  font-size: 24px;
+}
+
+/* ---------- Panel ---------- */
+.panel {
+  fill: var(--tile);
+}
+
+.panel-name {
+  fill: var(--ink);
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.panel-label {
+  fill: var(--ink-soft);
+  font-size: 20px;
+}
+
+.panel-number {
+  fill: var(--ink);
+  font-size: 42px;
+  font-weight: 600;
+}
+
+/* ---------- Hexagons ---------- */
+.country {
+  cursor: pointer;
+}
+
+.tile {
+  fill: var(--tile);
+  stroke: transparent;
+  stroke-width: 3;
+}
+
+/* outline the hexagon you're hovering over */
+.country.active .tile {
+  stroke: var(--ink);
+}
+
+.code {
+  fill: var(--ink);
+  font-size: 17px;
+  font-weight: 600;
+  text-anchor: middle;
+}
+
+/* ---------- Columns (also used by the legend and panel bars) ---------- */
+.hdi {
+  fill: var(--hdi);
+}
+
+.happy {
+  fill: var(--happy);
+}
+
+.free {
+  fill: var(--free);
+}
+
+.baseline {
+  stroke: var(--ink-soft);
+  stroke-width: 1.5;
+  stroke-opacity: 0.5;
+}
+
+/* ---------- Sources ---------- */
+.source {
+  fill: var(--ink-soft);
+  font-size: 17px;
+}
