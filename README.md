@@ -20,15 +20,6 @@ Each country is a hexagon, roughly where it sits on the map of Europe. Inside ea
 
 A panel above the map shows **Europe's averages** by default. Hovering over (or tapping) a country outlines it and switches the panel to that country's three numbers.
 
-### Findings
-
-- **The Nordics, the Netherlands and Switzerland** have three tall columns. They score highly on everything.
-- **Russia, Belarus and Türkiye** score reasonably on development but very low on freedom: rich-ish, but not free.
-- **Ukraine** has the lowest happiness score in Europe, and a freedom score held down by war and martial law.
-- **Portugal and Greece** are free and well developed, but noticeably less happy.
-
----
-
 ## Data
 
 | Index | Source | Year | Coverage |
@@ -40,6 +31,19 @@ A panel above the map shows **Europe's averages** by default. Hovering over (or 
 - **Freedom score** = political rights (0–40) + civil liberties (0–60).
 - **Belarus:** its latest happiness score is from 2021.
 - **Missing data** shows as no column on the map and a dash in the panel.
+
+## Visualisation
+
+![Animated preview](rich-happy-free-hover.gif)
+
+### Findings
+
+- **The Nordics, the Netherlands and Switzerland** have three tall columns. They score highly on everything.
+- **Russia, Belarus and Türkiye** score reasonably on development but very low on freedom: rich-ish, but not free.
+- **Ukraine** has the lowest happiness score in Europe, and a freedom score held down by war and martial law.
+- **Portugal and Greece** are free and well developed, but noticeably less happy.
+
+---
 
 ## Sources
 
